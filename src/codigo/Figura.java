@@ -18,6 +18,8 @@ public abstract class Figura implements IFigura {
      * @param x
      * @param y
      * @param color
+     *
+     *
      */
     public Figura(double x, double y, Color color) {
         this.setCentro(new Punto(x, y));
