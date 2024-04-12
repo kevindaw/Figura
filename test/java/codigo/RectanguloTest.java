@@ -11,6 +11,6 @@ class RectanguloTest {
     @Test
     void area() {
 
-        //assertEquals(4, new Rectangulo(2,2,new Color(23),2,3).area(2,2));
+        assertEquals(4, new Rectangulo(2,2,new Color(23),2,2).area());
     }
 }
